@@ -1,0 +1,22 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="0"
+        android:endColor="@color/endGradientColor"
+        android:startColor="@color/startGradientColor"
+        android:type="linear"
+        android:useLevel="false">
+        <gradient
+            android:angle="45"
+            android:endColor="@color/endGradientColor"
+            android:startColor="@color/startGradientColor"
+            android:type="linear"
+            android:useLevel="false" />
+        <gradient
+            android:angle="45"
+            android:endColor="@color/endGradientColor"
+            android:startColor="@color/color3"
+            android:type="linear"
+            android:useLevel="false" />
+
+    </gradient>
+</shape>

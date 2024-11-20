@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Your theme attributes go here -->
+    </style>
+
+    <style name="KeyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">190dp</item>
+        <item name="android:layout_marginStart">2dp</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+
+    </style>
+
+    <style name="SharpkeyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">170dp</item>
+        <item name="android:background">@drawable/black_key_background</item>
+        <item name="android:layout_marginTop">-25dp</item>
+    </style>
+
+
+
+</resources>

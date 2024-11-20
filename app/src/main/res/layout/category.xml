@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/category_gradient"
+    android:padding="16dp"
+    tools:context="com.example.pianoj.MainActivity">
+
+
+    <!-- Header layout for menu button and title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Menu Button -->
+        <Button
+            android:id="@+id/catmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/catmenu" />
+
+        <!-- Title TextView -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:text="Piano Category"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!-- Grid layout for piano images with text -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:background="@drawable/border"
+        android:layout_marginTop="20dp">
+
+        <!-- Grand Piano -->
+        <LinearLayout
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/grand"
+                android:layout_width="155dp"
+                android:layout_height="151dp"
+                android:background="@drawable/grand"
+                android:contentDescription="@string/grandpiano" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GRAND"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Bright Piano -->
+        <LinearLayout
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/bright"
+                android:layout_width="155dp"
+                android:layout_height="151dp"
+                android:background="@drawable/bright"
+                android:contentDescription="@string/brightpiano" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BRIGHT"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Classical Piano -->
+        <LinearLayout
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/classical"
+                android:layout_width="155dp"
+                android:layout_height="151dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/classical"
+                android:contentDescription="@string/classicalpiano" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLASSIC"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Closed Piano -->
+        <LinearLayout
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/closed"
+                android:layout_width="155dp"
+                android:layout_height="151dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/closed"
+                android:contentDescription="@string/closedpiano" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLOSED"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Soft Piano -->
+        <LinearLayout
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/soft"
+                android:layout_width="155dp"
+                android:layout_height="151dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/soft"
+                android:contentDescription="@string/softpiano" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOFT"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <!-- Rods Piano -->
+        <LinearLayout
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/rods"
+                android:layout_width="155dp"
+                android:layout_height="151dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rods"
+                android:contentDescription="@string/rodspiano" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RODES"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>
